@@ -36,13 +36,11 @@ public class ImageAdapter extends BaseAdapter {
             imageView.setLayoutParams(new GridView.LayoutParams(250, 250));
             imageView.setBackgroundColor(Color.parseColor("#fbdcbb"));
             imageView.setBackgroundResource(R.drawable.grid_row_border);
-            //imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            //imageView.setPadding(8, 8, 8, 8);
+
         } else {
             imageView = (ImageView) convertView;
         }
 
-        //imageView.setImageResource(mThumbIds[position]);
         return imageView;
     }
 

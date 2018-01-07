@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adrian.game.Options"
+    android:background="@drawable/back_blue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/layoutback">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theme"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+<RadioGroup
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/radiotheme">
+    <RadioButton
+        android:id="@+id/bleu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ffffff"
+        android:text="@string/bleu"
+        android:textColor="#7dbefc"/>
+
+    <RadioButton
+        android:id="@+id/rouge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ffffff"
+        android:text="@string/rouge"
+        android:textColor="#ff7e7e" />
+
+    <RadioButton
+        android:id="@+id/vert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ffffff"
+        android:text="@string/vert"
+        android:textColor="#7aff7e" />
+</RadioGroup>
+    <Button
+        android:id="@+id/appliquer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/round_button"
+        android:text="@string/apply"
+        android:textSize="15sp" />
+</LinearLayout>

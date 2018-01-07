@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Game</string>
-    <string name="Jouer">Jouer</string>
+    <string name="Jouer">Jouer!</string>
+    <string name="titre">TICTACTOE</string>
+    <string name="options">Options</string>
+    <string name="rejouer">Rejouer</string>
+    <string name="theme">THEME</string>
+    <string name="bleu">Bleu</string>
+    <string name="rouge">Rouge</string>
+    <string name="vert">Vert</string>
+    <string name="apply">Appliquer</string>
+    <string name="stats">Stats</string>
+    <string name="xwins">Victoires X</string>
+    <string name="owins">Victoires O</string>
+    <string name="errorSelectTheme">Selectionnez un thème.</string>
+    <string name="reset">Reset</string>
+    <string name="xtour">C\'est le tour de X!</string>
+    <string name="otour">C\'est le tour de O!</string>
+    <string name="draw">Egalité!</string>
+    <string name="xvictory">Victoire de X!</string>
+    <string name="ovictory">Victoire de O!</string>
 </resources>

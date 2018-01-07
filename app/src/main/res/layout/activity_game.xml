@@ -1,26 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutback"
+    android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     tools:context="com.example.adrian.game.Game"
     android:gravity="center"
-    android:layout_marginEnd="50dp"
-    android:layout_marginStart="50dp"
+    android:background="@drawable/back_blue"
     >
 
+
+    <TextView
+        android:id="@+id/tour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="@string/xtour"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
 
     <GridView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
         android:columnWidth="90dp"
         android:horizontalSpacing="5dp"
         android:numColumns="3"
         android:verticalSpacing="5dp">
 
     </GridView>
-</RelativeLayout>
+
+    <Button
+        android:id="@+id/rejouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="@string/rejouer"
+        android:visibility="invisible" />
+
+</LinearLayout>

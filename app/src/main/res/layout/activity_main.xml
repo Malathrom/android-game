@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutback"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.adrian.game.MainActivity">
+    tools:context="com.example.adrian.game.MainActivity"
+    android:background="@drawable/back_blue">
 
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/titre"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/jouer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/titre"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/Jouer" />
+        android:layout_marginTop="31dp"
+        android:background="@drawable/round_button"
+        android:text="@string/Jouer"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jouer"
+        android:layout_below="@+id/jouer"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button"
+        android:text="@string/options"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/options"
+        android:layout_below="@+id/options"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button"
+        android:text="@string/stats"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/titre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/tictactoe" />
+
 
 </RelativeLayout>

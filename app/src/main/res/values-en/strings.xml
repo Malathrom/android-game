@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Game</string>
-    <string name="Jouer">Play</string>
+    <string name="Jouer">Play!</string>
+    <string name="titre">TICTACTOE</string>
+    <string name="rejouer">Play Again</string>
+    <string name="bleu">Blue</string>
+    <string name="rouge">Red</string>
+    <string name="vert">Green</string>
+    <string name="apply">Apply</string>
+    <string name="xwins">X\'s wins</string>
+    <string name="owins">O\'s wins</string>
+    <string name="errorSelectTheme">Please select a theme.</string>
+    <string name="xtour">X\'s turn!</string>
+    <string name="otour">O\'s turn!</string>
+    <string name="draw">Draw!</string>
+    <string name="xvictory">X wins!</string>
+    <string name="ovictory">O wins!</string>
 </resources>

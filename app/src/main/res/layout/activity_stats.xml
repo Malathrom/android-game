@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adrian.game.Stats"
+    android:gravity="center"
+    android:background="@drawable/back_blue"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/xwinstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/xwins"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/xwins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="x"
+        android:textColor="#ff7878"
+        android:textSize="40sp"/>
+    <TextView
+        android:id="@+id/owinstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/owins"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/owins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="o"
+        android:textColor="#6daaff"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="@string/reset" />
+</LinearLayout>
